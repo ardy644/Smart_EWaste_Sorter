@@ -1,0 +1,1690 @@
+{
+  "total_raw_images": 18515,
+  "total_balanced_images": 9900,
+  "num_classes": 21,
+  "classes": [
+    "Battery",
+    "Biological",
+    "Brown-Glass",
+    "Cardboard",
+    "Clothes",
+    "Green-Glass",
+    "Keyboard",
+    "Metal",
+    "Microwave",
+    "Mobile",
+    "Mouse",
+    "Paper",
+    "Pcb",
+    "Plastic",
+    "Player",
+    "Printer",
+    "Shoes",
+    "Television",
+    "Trash",
+    "Washing Machine",
+    "White-Glass"
+  ],
+  "raw_class_distribution": {
+    "Clothes": 5325,
+    "Shoes": 1977,
+    "Battery": 1245,
+    "Paper": 1050,
+    "Biological": 985,
+    "Cardboard": 891,
+    "Plastic": 865,
+    "White-Glass": 775,
+    "Metal": 769,
+    "Trash": 697,
+    "Green-Glass": 629,
+    "Brown-Glass": 607,
+    "Pcb": 300,
+    "Mouse": 300,
+    "Microwave": 300,
+    "Television": 300,
+    "Printer": 300,
+    "Washing Machine": 300,
+    "Mobile": 300,
+    "Keyboard": 300,
+    "Player": 300
+  },
+  "balanced_class_distribution": {
+    "Battery": 600,
+    "Biological": 600,
+    "Brown-Glass": 600,
+    "Cardboard": 600,
+    "Clothes": 600,
+    "Green-Glass": 600,
+    "Metal": 600,
+    "Paper": 600,
+    "Plastic": 600,
+    "Trash": 600,
+    "White-Glass": 600,
+    "Shoes": 600,
+    "Keyboard": 300,
+    "Pcb": 300,
+    "Mouse": 300,
+    "Mobile": 300,
+    "Microwave": 300,
+    "Printer": 300,
+    "Player": 300,
+    "Television": 300,
+    "Washing Machine": 300
+  },
+  "class_metadata": {
+    "Battery": {
+      "category": "Hazardous E-Waste",
+      "bin_color": "Red / Specialized E-Waste Drop-off",
+      "hazard_level": "High (Heavy Metals / Lithium / Brominated Flame Retardants)",
+      "handling_tip": "Never crush or throw in municipal bins. Route to certified e-waste dismantler for precious metal recovery."
+    },
+    "Biological": {
+      "category": "Wet / Biodegradable Waste",
+      "bin_color": "Green Compost Bin",
+      "hazard_level": "Low (Methane emitter if landfilled)",
+      "handling_tip": "Route to aerobic composting or bio-methanation plant."
+    },
+    "Brown-Glass": {
+      "category": "Dry Recyclable / Household",
+      "bin_color": "Blue Dry Recyclable Bin",
+      "hazard_level": "Low-Moderate",
+      "handling_tip": "Ensure item is clean and dry before material recovery facility (MRF) sorting."
+    },
+    "Cardboard": {
+      "category": "Dry Recyclable / Household",
+      "bin_color": "Blue Dry Recyclable Bin",
+      "hazard_level": "Low-Moderate",
+      "handling_tip": "Ensure item is clean and dry before material recovery facility (MRF) sorting."
+    },
+    "Clothes": {
+      "category": "Dry Recyclable / Household",
+      "bin_color": "Blue Dry Recyclable Bin",
+      "hazard_level": "Low-Moderate",
+      "handling_tip": "Ensure item is clean and dry before material recovery facility (MRF) sorting."
+    },
+    "Green-Glass": {
+      "category": "Dry Recyclable / Household",
+      "bin_color": "Blue Dry Recyclable Bin",
+      "hazard_level": "Low-Moderate",
+      "handling_tip": "Ensure item is clean and dry before material recovery facility (MRF) sorting."
+    },
+    "Keyboard": {
+      "category": "Hazardous E-Waste",
+      "bin_color": "Red / Specialized E-Waste Drop-off",
+      "hazard_level": "High (Heavy Metals / Lithium / Brominated Flame Retardants)",
+      "handling_tip": "Never crush or throw in municipal bins. Route to certified e-waste dismantler for precious metal recovery."
+    },
+    "Metal": {
+      "category": "Dry Recyclable / Household",
+      "bin_color": "Blue Dry Recyclable Bin",
+      "hazard_level": "Low-Moderate",
+      "handling_tip": "Ensure item is clean and dry before material recovery facility (MRF) sorting."
+    },
+    "Microwave": {
+      "category": "Hazardous E-Waste",
+      "bin_color": "Red / Specialized E-Waste Drop-off",
+      "hazard_level": "High (Heavy Metals / Lithium / Brominated Flame Retardants)",
+      "handling_tip": "Never crush or throw in municipal bins. Route to certified e-waste dismantler for precious metal recovery."
+    },
+    "Mobile": {
+      "category": "Hazardous E-Waste",
+      "bin_color": "Red / Specialized E-Waste Drop-off",
+      "hazard_level": "High (Heavy Metals / Lithium / Brominated Flame Retardants)",
+      "handling_tip": "Never crush or throw in municipal bins. Route to certified e-waste dismantler for precious metal recovery."
+    },
+    "Mouse": {
+      "category": "Hazardous E-Waste",
+      "bin_color": "Red / Specialized E-Waste Drop-off",
+      "hazard_level": "High (Heavy Metals / Lithium / Brominated Flame Retardants)",
+      "handling_tip": "Never crush or throw in municipal bins. Route to certified e-waste dismantler for precious metal recovery."
+    },
+    "Paper": {
+      "category": "Dry Recyclable / Household",
+      "bin_color": "Blue Dry Recyclable Bin",
+      "hazard_level": "Low-Moderate",
+      "handling_tip": "Ensure item is clean and dry before material recovery facility (MRF) sorting."
+    },
+    "Pcb": {
+      "category": "Hazardous E-Waste",
+      "bin_color": "Red / Specialized E-Waste Drop-off",
+      "hazard_level": "High (Heavy Metals / Lithium / Brominated Flame Retardants)",
+      "handling_tip": "Never crush or throw in municipal bins. Route to certified e-waste dismantler for precious metal recovery."
+    },
+    "Plastic": {
+      "category": "Dry Recyclable / Household",
+      "bin_color": "Blue Dry Recyclable Bin",
+      "hazard_level": "Low-Moderate",
+      "handling_tip": "Ensure item is clean and dry before material recovery facility (MRF) sorting."
+    },
+    "Player": {
+      "category": "Hazardous E-Waste",
+      "bin_color": "Red / Specialized E-Waste Drop-off",
+      "hazard_level": "High (Heavy Metals / Lithium / Brominated Flame Retardants)",
+      "handling_tip": "Never crush or throw in municipal bins. Route to certified e-waste dismantler for precious metal recovery."
+    },
+    "Printer": {
+      "category": "Hazardous E-Waste",
+      "bin_color": "Red / Specialized E-Waste Drop-off",
+      "hazard_level": "High (Heavy Metals / Lithium / Brominated Flame Retardants)",
+      "handling_tip": "Never crush or throw in municipal bins. Route to certified e-waste dismantler for precious metal recovery."
+    },
+    "Shoes": {
+      "category": "Dry Recyclable / Household",
+      "bin_color": "Blue Dry Recyclable Bin",
+      "hazard_level": "Low-Moderate",
+      "handling_tip": "Ensure item is clean and dry before material recovery facility (MRF) sorting."
+    },
+    "Television": {
+      "category": "Hazardous E-Waste",
+      "bin_color": "Red / Specialized E-Waste Drop-off",
+      "hazard_level": "High (Heavy Metals / Lithium / Brominated Flame Retardants)",
+      "handling_tip": "Never crush or throw in municipal bins. Route to certified e-waste dismantler for precious metal recovery."
+    },
+    "Trash": {
+      "category": "Dry Recyclable / Household",
+      "bin_color": "Blue Dry Recyclable Bin",
+      "hazard_level": "Low-Moderate",
+      "handling_tip": "Ensure item is clean and dry before material recovery facility (MRF) sorting."
+    },
+    "Washing Machine": {
+      "category": "Dry Recyclable / Household",
+      "bin_color": "Blue Dry Recyclable Bin",
+      "hazard_level": "Low-Moderate",
+      "handling_tip": "Ensure item is clean and dry before material recovery facility (MRF) sorting."
+    },
+    "White-Glass": {
+      "category": "Dry Recyclable / Household",
+      "bin_color": "Blue Dry Recyclable Bin",
+      "hazard_level": "Low-Moderate",
+      "handling_tip": "Ensure item is clean and dry before material recovery facility (MRF) sorting."
+    }
+  },
+  "sample_images": [
+    {
+      "filename": "battery_1.jpg",
+      "true_label": "Battery"
+    },
+    {
+      "filename": "battery_2.jpg",
+      "true_label": "Battery"
+    },
+    {
+      "filename": "biological_1.jpg",
+      "true_label": "Biological"
+    },
+    {
+      "filename": "biological_2.jpg",
+      "true_label": "Biological"
+    },
+    {
+      "filename": "brown-glass_1.jpg",
+      "true_label": "Brown-Glass"
+    },
+    {
+      "filename": "brown-glass_2.jpg",
+      "true_label": "Brown-Glass"
+    },
+    {
+      "filename": "cardboard_1.jpg",
+      "true_label": "Cardboard"
+    },
+    {
+      "filename": "cardboard_2.jpg",
+      "true_label": "Cardboard"
+    },
+    {
+      "filename": "clothes_1.jpg",
+      "true_label": "Clothes"
+    },
+    {
+      "filename": "clothes_2.jpg",
+      "true_label": "Clothes"
+    },
+    {
+      "filename": "green-glass_1.jpg",
+      "true_label": "Green-Glass"
+    },
+    {
+      "filename": "green-glass_2.jpg",
+      "true_label": "Green-Glass"
+    },
+    {
+      "filename": "keyboard_1.jpg",
+      "true_label": "Keyboard"
+    },
+    {
+      "filename": "keyboard_2.jpg",
+      "true_label": "Keyboard"
+    },
+    {
+      "filename": "metal_1.jpg",
+      "true_label": "Metal"
+    },
+    {
+      "filename": "metal_2.jpg",
+      "true_label": "Metal"
+    },
+    {
+      "filename": "microwave_1.jpg",
+      "true_label": "Microwave"
+    },
+    {
+      "filename": "microwave_2.jpg",
+      "true_label": "Microwave"
+    },
+    {
+      "filename": "mobile_1.jpg",
+      "true_label": "Mobile"
+    },
+    {
+      "filename": "mobile_2.jpg",
+      "true_label": "Mobile"
+    },
+    {
+      "filename": "mouse_1.jpg",
+      "true_label": "Mouse"
+    },
+    {
+      "filename": "mouse_2.jpg",
+      "true_label": "Mouse"
+    },
+    {
+      "filename": "paper_1.jpg",
+      "true_label": "Paper"
+    },
+    {
+      "filename": "paper_2.jpg",
+      "true_label": "Paper"
+    },
+    {
+      "filename": "pcb_1.jpg",
+      "true_label": "Pcb"
+    },
+    {
+      "filename": "pcb_2.jpg",
+      "true_label": "Pcb"
+    },
+    {
+      "filename": "plastic_1.jpg",
+      "true_label": "Plastic"
+    },
+    {
+      "filename": "plastic_2.jpg",
+      "true_label": "Plastic"
+    },
+    {
+      "filename": "player_1.jpg",
+      "true_label": "Player"
+    },
+    {
+      "filename": "player_2.jpg",
+      "true_label": "Player"
+    },
+    {
+      "filename": "printer_1.jpg",
+      "true_label": "Printer"
+    },
+    {
+      "filename": "printer_2.jpg",
+      "true_label": "Printer"
+    },
+    {
+      "filename": "shoes_1.jpg",
+      "true_label": "Shoes"
+    },
+    {
+      "filename": "shoes_2.jpg",
+      "true_label": "Shoes"
+    },
+    {
+      "filename": "television_1.jpg",
+      "true_label": "Television"
+    },
+    {
+      "filename": "television_2.jpg",
+      "true_label": "Television"
+    },
+    {
+      "filename": "trash_1.jpg",
+      "true_label": "Trash"
+    },
+    {
+      "filename": "trash_2.jpg",
+      "true_label": "Trash"
+    },
+    {
+      "filename": "washing-machine_1.jpg",
+      "true_label": "Washing Machine"
+    },
+    {
+      "filename": "washing-machine_2.jpg",
+      "true_label": "Washing Machine"
+    },
+    {
+      "filename": "white-glass_1.jpg",
+      "true_label": "White-Glass"
+    },
+    {
+      "filename": "white-glass_2.jpg",
+      "true_label": "White-Glass"
+    }
+  ],
+  "models": {
+    "Baseline_CNN": {
+      "best_val_accuracy": 0.504,
+      "macro_f1": 0.442,
+      "history": {
+        "train_loss": [
+          2.2682,
+          1.9641,
+          1.8166,
+          1.699,
+          1.6291
+        ],
+        "val_loss": [
+          2.2481,
+          1.833,
+          1.8127,
+          1.6796,
+          1.5925
+        ],
+        "train_acc": [
+          0.3188,
+          0.3939,
+          0.4394,
+          0.4718,
+          0.4894
+        ],
+        "val_acc": [
+          0.2894,
+          0.4126,
+          0.4237,
+          0.4742,
+          0.504
+        ]
+      },
+      "confusion_matrix": [
+        [
+          61,
+          2,
+          6,
+          1,
+          1,
+          3,
+          5,
+          6,
+          0,
+          2,
+          0,
+          3,
+          1,
+          0,
+          2,
+          3,
+          3,
+          0,
+          8,
+          5,
+          8
+        ],
+        [
+          0,
+          79,
+          11,
+          2,
+          3,
+          6,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          10,
+          0,
+          1,
+          0,
+          3,
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          92,
+          4,
+          1,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          5,
+          0,
+          1,
+          0,
+          0,
+          3,
+          0,
+          3,
+          1,
+          5
+        ],
+        [
+          0,
+          3,
+          2,
+          95,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          5,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1,
+          6
+        ],
+        [
+          1,
+          9,
+          1,
+          8,
+          45,
+          0,
+          0,
+          4,
+          0,
+          11,
+          1,
+          12,
+          2,
+          11,
+          2,
+          7,
+          3,
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0,
+          102,
+          0,
+          1,
+          0,
+          0,
+          0,
+          4,
+          5,
+          4,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          43,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          13,
+          0
+        ],
+        [
+          3,
+          3,
+          10,
+          1,
+          2,
+          1,
+          0,
+          35,
+          1,
+          2,
+          2,
+          12,
+          4,
+          6,
+          1,
+          0,
+          2,
+          0,
+          5,
+          5,
+          25
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          8,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          12,
+          3,
+          30,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          3,
+          0,
+          16,
+          0,
+          1,
+          13,
+          3,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          16,
+          0,
+          5,
+          0
+        ],
+        [
+          3,
+          3,
+          3,
+          2,
+          0,
+          1,
+          9,
+          1,
+          1,
+          2,
+          2,
+          0,
+          1,
+          0,
+          0,
+          3,
+          0,
+          9,
+          6,
+          11,
+          3
+        ],
+        [
+          1,
+          7,
+          0,
+          4,
+          3,
+          2,
+          0,
+          1,
+          0,
+          0,
+          0,
+          77,
+          1,
+          4,
+          0,
+          1,
+          3,
+          0,
+          0,
+          1,
+          15
+        ],
+        [
+          2,
+          2,
+          1,
+          0,
+          1,
+          2,
+          6,
+          0,
+          0,
+          1,
+          0,
+          0,
+          37,
+          0,
+          1,
+          5,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          4,
+          4,
+          5,
+          6,
+          0,
+          2,
+          0,
+          1,
+          0,
+          8,
+          0,
+          53,
+          0,
+          4,
+          0,
+          0,
+          27,
+          0,
+          5
+        ],
+        [
+          3,
+          1,
+          1,
+          2,
+          0,
+          1,
+          16,
+          2,
+          3,
+          1,
+          0,
+          0,
+          2,
+          1,
+          12,
+          7,
+          1,
+          0,
+          1,
+          6,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          3,
+          2,
+          1,
+          1,
+          0,
+          0,
+          1,
+          7,
+          0,
+          8,
+          0,
+          15,
+          0
+        ],
+        [
+          25,
+          3,
+          10,
+          2,
+          18,
+          2,
+          0,
+          3,
+          1,
+          4,
+          1,
+          8,
+          3,
+          2,
+          3,
+          2,
+          21,
+          0,
+          2,
+          1,
+          9
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          11,
+          0,
+          8,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          23,
+          1,
+          11,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          3,
+          0,
+          2,
+          0,
+          2,
+          1,
+          3,
+          92,
+          1,
+          7
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          5,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          5,
+          46,
+          0
+        ],
+        [
+          4,
+          0,
+          2,
+          1,
+          1,
+          0,
+          0,
+          3,
+          1,
+          4,
+          0,
+          9,
+          1,
+          9,
+          0,
+          0,
+          0,
+          2,
+          23,
+          2,
+          58
+        ]
+      ],
+      "classification_report": {
+        "Battery": {
+          "precision": 0.5648148148148148,
+          "recall": 0.5083333333333333,
+          "f1-score": 0.5350877192982456,
+          "support": 120.0
+        },
+        "Biological": {
+          "precision": 0.6869565217391305,
+          "recall": 0.6583333333333333,
+          "f1-score": 0.6723404255319149,
+          "support": 120.0
+        },
+        "Brown-Glass": {
+          "precision": 0.6258503401360545,
+          "recall": 0.7666666666666667,
+          "f1-score": 0.6891385767790262,
+          "support": 120.0
+        },
+        "Cardboard": {
+          "precision": 0.7364341085271318,
+          "recall": 0.7916666666666666,
+          "f1-score": 0.7630522088353414,
+          "support": 120.0
+        },
+        "Clothes": {
+          "precision": 0.5172413793103449,
+          "recall": 0.375,
+          "f1-score": 0.43478260869565216,
+          "support": 120.0
+        },
+        "Green-Glass": {
+          "precision": 0.8031496062992126,
+          "recall": 0.85,
+          "f1-score": 0.8259109311740891,
+          "support": 120.0
+        },
+        "Keyboard": {
+          "precision": 0.30935251798561153,
+          "recall": 0.7166666666666667,
+          "f1-score": 0.4321608040201005,
+          "support": 60.0
+        },
+        "Metal": {
+          "precision": 0.5303030303030303,
+          "recall": 0.2916666666666667,
+          "f1-score": 0.3763440860215054,
+          "support": 120.0
+        },
+        "Microwave": {
+          "precision": 0.19230769230769232,
+          "recall": 0.08333333333333333,
+          "f1-score": 0.11627906976744186,
+          "support": 60.0
+        },
+        "Mobile": {
+          "precision": 0.28888888888888886,
+          "recall": 0.21666666666666667,
+          "f1-score": 0.24761904761904763,
+          "support": 60.0
+        },
+        "Mouse": {
+          "precision": 0.16666666666666666,
+          "recall": 0.03333333333333333,
+          "f1-score": 0.05555555555555555,
+          "support": 60.0
+        },
+        "Paper": {
+          "precision": 0.5310344827586206,
+          "recall": 0.6416666666666667,
+          "f1-score": 0.5811320754716981,
+          "support": 120.0
+        },
+        "Pcb": {
+          "precision": 0.5362318840579711,
+          "recall": 0.6166666666666667,
+          "f1-score": 0.5736434108527132,
+          "support": 60.0
+        },
+        "Plastic": {
+          "precision": 0.5408163265306123,
+          "recall": 0.44166666666666665,
+          "f1-score": 0.48623853211009177,
+          "support": 120.0
+        },
+        "Player": {
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1-score": 0.2857142857142857,
+          "support": 60.0
+        },
+        "Printer": {
+          "precision": 0.16666666666666666,
+          "recall": 0.11666666666666667,
+          "f1-score": 0.13725490196078433,
+          "support": 60.0
+        },
+        "Shoes": {
+          "precision": 0.5,
+          "recall": 0.175,
+          "f1-score": 0.25925925925925924,
+          "support": 120.0
+        },
+        "Television": {
+          "precision": 0.2875,
+          "recall": 0.38333333333333336,
+          "f1-score": 0.32857142857142857,
+          "support": 60.0
+        },
+        "Trash": {
+          "precision": 0.5139664804469274,
+          "recall": 0.7666666666666667,
+          "f1-score": 0.6153846153846154,
+          "support": 120.0
+        },
+        "Washing Machine": {
+          "precision": 0.2967741935483871,
+          "recall": 0.7666666666666667,
+          "f1-score": 0.42790697674418604,
+          "support": 60.0
+        },
+        "White-Glass": {
+          "precision": 0.4,
+          "recall": 0.48333333333333334,
+          "f1-score": 0.4377358490566038,
+          "support": 120.0
+        },
+        "accuracy": 0.5040404040404041,
+        "macro avg": {
+          "precision": 0.4616645524279887,
+          "recall": 0.4706349206349207,
+          "f1-score": 0.4419577318296946,
+          "support": 1980.0
+        },
+        "weighted avg": {
+          "precision": 0.5044097785410194,
+          "recall": 0.5040404040404041,
+          "f1-score": 0.48356118957701894,
+          "support": 1980.0
+        }
+      }
+    },
+    "EfficientNetV2_S": {
+      "best_val_accuracy": 0.9717,
+      "macro_f1": 0.9726,
+      "history": {
+        "train_loss": [
+          0.6117,
+          0.1866,
+          0.0678,
+          0.0307
+        ],
+        "val_loss": [
+          0.246,
+          0.1497,
+          0.1211,
+          0.0985
+        ],
+        "train_acc": [
+          0.8371,
+          0.9434,
+          0.9798,
+          0.9917
+        ],
+        "val_acc": [
+          0.9283,
+          0.9561,
+          0.9626,
+          0.9717
+        ]
+      },
+      "confusion_matrix": [
+        [
+          114,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          119,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          117,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          114,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          119,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          119,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          59,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          112,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          57,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          60,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          60,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          118,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          59,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          112,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          56,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          58,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          119,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          60,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          120,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          59,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          113
+        ]
+      ],
+      "classification_report": {
+        "Battery": {
+          "precision": 0.9743589743589743,
+          "recall": 0.95,
+          "f1-score": 0.9620253164556962,
+          "support": 120.0
+        },
+        "Biological": {
+          "precision": 0.967479674796748,
+          "recall": 0.9916666666666667,
+          "f1-score": 0.9794238683127572,
+          "support": 120.0
+        },
+        "Brown-Glass": {
+          "precision": 0.9590163934426229,
+          "recall": 0.975,
+          "f1-score": 0.9669421487603306,
+          "support": 120.0
+        },
+        "Cardboard": {
+          "precision": 0.9743589743589743,
+          "recall": 0.95,
+          "f1-score": 0.9620253164556962,
+          "support": 120.0
+        },
+        "Clothes": {
+          "precision": 1.0,
+          "recall": 0.9916666666666667,
+          "f1-score": 0.99581589958159,
+          "support": 120.0
+        },
+        "Green-Glass": {
+          "precision": 0.967479674796748,
+          "recall": 0.9916666666666667,
+          "f1-score": 0.9794238683127572,
+          "support": 120.0
+        },
+        "Keyboard": {
+          "precision": 1.0,
+          "recall": 0.9833333333333333,
+          "f1-score": 0.9915966386554622,
+          "support": 60.0
+        },
+        "Metal": {
+          "precision": 0.9333333333333333,
+          "recall": 0.9333333333333333,
+          "f1-score": 0.9333333333333333,
+          "support": 120.0
+        },
+        "Microwave": {
+          "precision": 0.9827586206896551,
+          "recall": 0.95,
+          "f1-score": 0.9661016949152542,
+          "support": 60.0
+        },
+        "Mobile": {
+          "precision": 0.9836065573770492,
+          "recall": 1.0,
+          "f1-score": 0.9917355371900827,
+          "support": 60.0
+        },
+        "Mouse": {
+          "precision": 0.9523809523809523,
+          "recall": 1.0,
+          "f1-score": 0.975609756097561,
+          "support": 60.0
+        },
+        "Paper": {
+          "precision": 0.9752066115702479,
+          "recall": 0.9833333333333333,
+          "f1-score": 0.979253112033195,
+          "support": 120.0
+        },
+        "Pcb": {
+          "precision": 1.0,
+          "recall": 0.9833333333333333,
+          "f1-score": 0.9915966386554622,
+          "support": 60.0
+        },
+        "Plastic": {
+          "precision": 0.9739130434782609,
+          "recall": 0.9333333333333333,
+          "f1-score": 0.9531914893617022,
+          "support": 120.0
+        },
+        "Player": {
+          "precision": 0.9180327868852459,
+          "recall": 0.9333333333333333,
+          "f1-score": 0.9256198347107438,
+          "support": 60.0
+        },
+        "Printer": {
+          "precision": 0.9666666666666667,
+          "recall": 0.9666666666666667,
+          "f1-score": 0.9666666666666667,
+          "support": 60.0
+        },
+        "Shoes": {
+          "precision": 0.9916666666666667,
+          "recall": 0.9916666666666667,
+          "f1-score": 0.9916666666666667,
+          "support": 120.0
+        },
+        "Television": {
+          "precision": 0.9836065573770492,
+          "recall": 1.0,
+          "f1-score": 0.9917355371900827,
+          "support": 60.0
+        },
+        "Trash": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 120.0
+        },
+        "Washing Machine": {
+          "precision": 0.9833333333333333,
+          "recall": 0.9833333333333333,
+          "f1-score": 0.9833333333333333,
+          "support": 60.0
+        },
+        "White-Glass": {
+          "precision": 0.9338842975206612,
+          "recall": 0.9416666666666667,
+          "f1-score": 0.9377593360995851,
+          "support": 120.0
+        },
+        "accuracy": 0.9717171717171718,
+        "macro avg": {
+          "precision": 0.9724325294777708,
+          "recall": 0.973015873015873,
+          "f1-score": 0.9726121901327599,
+          "support": 1980.0
+        },
+        "weighted avg": {
+          "precision": 0.9718721443441342,
+          "recall": 0.9717171717171718,
+          "f1-score": 0.9716883741867052,
+          "support": 1980.0
+        }
+      }
+    }
+  }
+}

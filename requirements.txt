@@ -1,0 +1,16 @@
+# Core ML / DL
+torch
+torchvision
+
+# Web Dashboard
+streamlit
+
+# Image Processing
+opencv-python-headless
+Pillow
+
+# Data Science
+numpy
+pandas
+plotly
+scikit-learn

@@ -1,0 +1,25 @@
+# ── Python ──
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ──
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ── Streamlit ──
+.streamlit/
+
+# ── Large archive (already extracted) ──
+ewaste_deploy_bundle.zip
